@@ -14,7 +14,7 @@ public class RatingDataResource {
 	public List<RatingInfo>getRatingInfo(String movieId){
 		
 		return Collections.singletonList(
-				new RatingInfo(123, 4));
+				new RatingInfo("1", 4));
 		
 	}
 

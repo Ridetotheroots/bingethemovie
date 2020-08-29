@@ -16,7 +16,7 @@ public class MovieResource {
 	@RequestMapping("/{movieId}")
 	public List<InfoIteam> getMovieInfo(@PathVariable("movieId")String movieId){
 		return Collections.singletonList(
-				new InfoIteam(123, "The Irishman"));
+				new InfoIteam("1", "The Irishman"));
 		
 	}
 
